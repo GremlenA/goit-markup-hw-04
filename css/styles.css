@@ -8,7 +8,9 @@ body {
 img {
   display: block;
 }
-ul,li {
+
+ul,
+li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -33,7 +35,9 @@ h2 p {
   border-bottom: 1px solid #e7e9fc;
   width: 1440px;
   height: 72px;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); ;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+              0px 1px 1px rgba(46, 47, 66, 0.16),
+              0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-info {
@@ -42,7 +46,6 @@ h2 p {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-
 }
 
 .logo-header {
@@ -55,12 +58,10 @@ h2 p {
   font-family: "Raleway", sans-serif;
   margin-right: 76px;
   margin-bottom: 50px;
-  
 }
 
 .logo-header > span {
   color: #2e2f42;
-
 }
 
 .logo-text {
@@ -71,21 +72,17 @@ h2 p {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
-
 }
 
 .navhed {
   display: flex;
   align-items: center;
-  position: relative;
 }
 
 /* === Menu === */
 .menu {
-  list-style: none;
   display: flex;
   gap: 40px;
-  
 }
 
 .menu-item {
@@ -96,7 +93,26 @@ h2 p {
   color: #2e2f42;
   text-decoration: none;
   padding: 24px 0;
+}
 
+.menu li:first-child .menu-item {
+  position: relative;
+}
+.munu li:first-child .menu-item
+{
+  color: #404bbf;
+}
+.item-first::after
+{
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px; 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-item:hover,
@@ -108,7 +124,6 @@ h2 p {
 .contact-info {
   display: flex;
   gap: 40px;
-  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link {
@@ -116,35 +131,35 @@ h2 p {
   align-items: center;
   color: #434455;
   text-decoration: none;
-  
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-bloc{
+.contact-bloc {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
- position: absolute;
- right:100px;
- 
+  position: absolute;
+  right: 100px;
 }
-
-
 
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
 }
 
-/* === Order (секция 1) === */
+/* === Order (Секция 1) === */
 .order {
   padding: 188px 0;
   background-color: #2e2f42;
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7)),url(/images/people-office\ 1.jpg) ;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(/images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  max-width: 1440px;
 }
-/* текст над кнопкой */
+
 .baner {
   font-size: 56px;
   line-height: 1.07;
@@ -153,15 +168,14 @@ h2 p {
   color: #ffffff;
   max-width: 496px;
   position: relative;
+}
 
+.banersk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.banersk 
-{
- display: flex;
- justify-content: center;
- align-items: center;
-}
-/* кнопка */
+
 .knopka {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -177,32 +191,36 @@ h2 p {
   border: none;
   border-radius: 4px;
   position: absolute;
-  margin-top:300px;
-  
+  margin-top: 300px;
 }
-/* эфекты кнопки при нажатии */
+
 .knopka:hover,
 .knopka:focus {
   background-color: #404bbf;
 }
-/* задний фон кнопки  */
+
 .button {
   background-color: #2e2f42;
- 
 }
-/* === Features (секция 2) === */
+
+/* === Features (Секция 2) === */
 .sektion-two {
   padding: 120px 0;
 }
-/* ===svg -иконки для стратегий === */
-.heder-logo-item{
+
+.heder-logo-item {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .feature-list {
   display: flex;
   gap: 24px;
+}
+
+.feature-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .feature-title {
@@ -212,7 +230,6 @@ h2 p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
 }
 
 .feature-text {
@@ -222,61 +239,24 @@ h2 p {
   color: #434455;
   margin-bottom: 8px;
   text-align: center;
-
-}
-.feature-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-
-.visually-hidden {
-  color: rgba(0, 0, 0, 0);
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-
-
-/* === Team (секция 3) === */
+/* === Team (Секция 3) === */
 .team-section {
   background-color: #f4f4fd;
   padding: 120px 0;
-}
-.feature-text
-{
-  text-align: center;
-}
-.portfolio-list {
-  padding: 32px 0;
-  display: flex;
-  gap: 24px;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
   padding: 32px 0;
-  list-style: none;
 }
 
-
-.team-card 
-{
+.team-card {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-}
-
-.team-name {
-  padding: 32px 0;
 }
 
 .team-text {
@@ -315,12 +295,11 @@ h2 p {
   margin-bottom: 72px;
 }
 
-/* Секция */
+/* === Portfolio (Секция 4) === */
 .portfolio {
   padding: 120px 0;
 }
 
-/* Заголовок секции */
 .portfolio-section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -331,30 +310,25 @@ h2 p {
   margin-bottom: 72px;
 }
 
-/* Список */
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* Элемент списка */
 .portfolio-app {
   width: calc((100% - 48px) / 3);
 }
 
-/* Контейнер под текст */
 .portfolio-card {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
 
-/* Название */
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
@@ -364,7 +338,6 @@ h2 p {
   margin-bottom: 8px;
 }
 
-/* Категория */
 .app {
   font-size: 16px;
   line-height: 1.5;
@@ -408,20 +381,25 @@ footer {
   line-height: 1.5;
   position: relative;
 }
-.footer-social
-{
+
+.footer-social {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   line-height: 1.5;
   display: flex;
   position: absolute;
-  
 }
-.footer-circle
-{
+
+.footer-circle {
   display: flex;
   position: absolute;
-  
+}
+
+.circle {
+  height: 40px;
+  width: 40px;
+  background-color: #4D5AE5;
+  border-radius: 50%;
 }
 
 /* === Прочее === */
@@ -438,11 +416,4 @@ footer {
 
 .munu > a {
   text-decoration: none;
-}
-
-.circle {
-  height: 40px;
-  width: 40px;
-  background-color:#4D5AE5;
-  border-radius: 50%;
 }
