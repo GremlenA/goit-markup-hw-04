@@ -242,6 +242,17 @@ h2 p {
   margin-bottom: 8px;
   text-align: center;
 }
+.locator
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
 
 /* === Team (Секция 3) === */
 .team-section {
