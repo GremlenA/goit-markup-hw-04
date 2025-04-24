@@ -157,7 +157,7 @@ h2 p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7));
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7)),url(/images/people-office\ 1.jpg);
   max-width: 1440px;
 }
 
