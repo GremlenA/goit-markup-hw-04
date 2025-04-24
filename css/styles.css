@@ -313,6 +313,8 @@ h2 p {
     display: flex;
     justify-content: center;
     gap: 24px;
+    width: 40px;
+    height: 40px;
 }
 .privat-social
 {
@@ -323,6 +325,7 @@ h2 p {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .privat-social :hover,
 .privat-social :focus
