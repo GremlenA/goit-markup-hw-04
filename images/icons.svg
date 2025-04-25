@@ -17,23 +17,6 @@
       <path fill="#4d5ae5" d="M15 15h1v5h-1v-5zm4 2h1v3h-1v-3zm-8 2h1v1h-1v-1zm-4-1h2v2H7v-2z" style="fill:var(--color2, #4d5ae5)"/>
       <path fill="#2e2f42" d="M2 28h25l2-1v-2l-2-2V10l3-3a2 2 0 1 0-1-1l-2 2V7l-2-2H4L2 7v16l-2 2v2l2 1zM30 5a1 1 0 1 1 0 1 1 1 0 0 1 0-1zM3 7l1-1h21l1 1v2l-1 1V8H4v13l1 1h19l1-1v-9l1-1v12H3V7zm5 7a2 2 0 1 0 1 3l2 1 1-1 4-4 3 3h1l3-3v8H5V9h18v2l-3 4-4-3h-1l-4 4h-1v-1l-2-1zm1 1a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 9h5v1h-5v-1zM1 25l1-1h9v1l1 1h5l1-1v-1h9l1 1v2H1v-2z" style="fill:var(--color1, #2e2f42)"/>
     </symbol>
-    <symbol id="icon-twitter" viewBox="0 0 32 32">
-      <path fill="#4d5ae5" d="M32 16A16 16 0 0 1 5 27 16 16 0 0 1 16 0c4 0 8 2 11 5s5 7 5 11z" style="fill:var(--color1, #4d5ae5)"/>
-      <path fill="#f4f4fd" d="M22 12h-1l1-1-2 1a3 3 0 0 0-4 2l-6-3v2l1 2-1-1c0 2 1 3 2 3a3 3 0 0 1-1 0l2 2a5 5 0 0 1-3 1l4 1a7 7 0 0 0 7-8l1-1z" style="fill:var(--color2, #f4f4fd)"/>
-    </symbol>
-    <symbol id="icon-facebook" viewBox="0 0 32 32">
-      <path fill="#4d5ae5" d="M32 16A16 16 0 0 1 5 27 16 16 0 0 1 16 0c4 0 8 2 11 5s5 7 5 11z" style="fill:var(--color1, #4d5ae5)"/>
-      <path fill="#f4f4fd" d="M18 12h1v-2h-1c-2 0-3 1-3 3v1h-2v3h2v5h2v-5h2v-3h-2v-1l1-1z" style="fill:var(--color2, #f4f4fd)"/>
-    </symbol>
-    <symbol id="icon-instagram" viewBox="0 0 32 32">
-      <path fill="#4d5ae5" d="M32 16A16 16 0 0 1 5 27 16 16 0 0 1 16 0c4 0 8 2 11 5s5 7 5 11z" style="fill:var(--color1, #4d5ae5)"/>
-      <path fill="#f4f4fd" d="M22 13v-1l-1-1-1-1h-1a43 43 0 0 0-7 0l-1 1-1 1v1a44 44 0 0 0 0 7l1 1 1 1h1a47 47 0 0 0 7 0l2-2v-7zm-1 6v1l-1 1h-1a45 45 0 0 1-7 0l-1-1v-1a45 45 0 0 1 0-7l1-1h1a45 45 0 0 1 7 0h1v8z" style="fill:var(--color2, #f4f4fd)"/>
-      <path fill="#f4f4fd" d="M16 13a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0 5a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm4-5a1 1 0 1 1-1 0 1 1 0 0 1 1 0z" style="fill:var(--color2, #f4f4fd)"/>
-    </symbol>
-    <symbol id="icon-linkeden" viewBox="0 0 32 32">
-      <path fill="#4d5ae5" d="M32 16A16 16 0 0 1 5 27 16 16 0 0 1 16 0c4 0 8 2 11 5s5 7 5 11z" style="fill:var(--color1, #4d5ae5)"/>
-      <path fill="#f4f4fd" d="M22 22v-4c0-3 0-4-3-4l-2 1v-1h-3v8h3v-4l1-2c2 0 2 1 2 2v4h2zm-12-8h2v8h-2v-8zm1-4-1 1 1 2 2-2-2-1z" style="fill:var(--color2, #f4f4fd)"/>
-    </symbol>
     <symbol id="icon-linkedin-1" viewBox="0 0 32 32">
       <path fill="#f4f4fd" d="M31.992 32v-.001H32V20.263c0-5.741-1.236-10.164-7.948-10.164-3.227 0-5.392 1.771-6.276 3.449h-.093v-2.913h-6.364v21.364h6.627V21.42c0-2.785.528-5.479 3.977-5.479 3.399 0 3.449 3.179 3.449 5.657v10.401h6.62zM.528 10.636h6.635V32H.528V10.636zM3.843 0C1.722 0 0 1.721 0 3.843s1.721 3.879 3.843 3.879c2.121 0 3.843-1.757 3.843-3.879A3.846 3.846 0 0 0 3.843 0z" style="fill:var(--color1, #f4f4fd)"/>
     </symbol>
