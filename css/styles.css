@@ -327,8 +327,8 @@ h2 p {
   justify-content: center;
   transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.social-team :hover,
-.social-team :focus
+.social-team:hover,
+.social-team:focus
  {
   background-color:#404bbf;
  }
