@@ -316,8 +316,11 @@ h2 p {
     display: flex;
     justify-content: center;
     gap: 24px;
-    width: 40px;
-    height: 40px;
+  
+}
+.social-team li {
+  width: 40px;
+  height: 40px;
 }
 .privat-social
 {
