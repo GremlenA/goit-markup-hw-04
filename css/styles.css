@@ -160,7 +160,7 @@ h2 p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/peopleoffice\ .jpg");
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/peopleoffice.jpg");
   max-width: 1440px;
  
 }
@@ -483,6 +483,7 @@ h2 p {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  
 }
 
 .footer-social-list {
