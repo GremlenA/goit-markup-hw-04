@@ -40,7 +40,8 @@ h2 p {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
               0px 1px 1px rgba(46, 47, 66, 0.16),
               0px 1px 6px rgba(46, 47, 66, 0.08);
-  width: 100%; /* <-- исправить! */
+  width: 100%;
+  max-width: 1440px;
   height: 72px;
 }
 
@@ -439,11 +440,11 @@ h2 p {
 }
 
 .footer {
-  width: 1158px; /* обязательно фиксированная ширина */
-  margin: 0 auto; /* центрируем */
+  width: 1158px;
+  margin: 0 auto;
   display: flex;
   align-items: baseline;
-  gap: 120px; /* отступ между двумя блоками */
+  gap: 120px; /* тут автоматически дается отступ между div */
 }
 
 /* Левая часть */
@@ -451,6 +452,9 @@ h2 p {
   width: 264px;
 }
 
+.footer-logo {
+  margin-bottom: 16px;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -470,19 +474,17 @@ h2 p {
 
 .footer-text {
   color: #f4f4fd;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   max-width: 264px;
 }
 
-/* Правая часть: соцсети */
 .footer-social-block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-
 .footer-social-title {
   font-weight: 500;
   font-size: 16px;
@@ -491,7 +493,6 @@ h2 p {
   color: #ffffff;
   margin-bottom: 16px;
 }
-
 .footer-social-list {
   display: flex;
   gap: 16px;
