@@ -50,8 +50,8 @@ h2 p {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  
 }
-
 
 .header-info {
   display: flex;
@@ -72,6 +72,8 @@ h2 p {
   font-family: "Raleway", sans-serif;
   margin-right: 76px;
   margin-bottom: 50px;
+ margin: 25.5px;
+ text-decoration: none;
 }
 
 .logo-header > span {
@@ -91,6 +93,7 @@ h2 p {
 .navhed {
   display: flex;
   align-items: center;
+
 }
 
 /* === Menu === */
