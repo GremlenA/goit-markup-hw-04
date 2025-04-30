@@ -490,6 +490,7 @@ h2 p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  overflow: hidden;
 }
 .footer-social-title {
   font-weight: 500;
