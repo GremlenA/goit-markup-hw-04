@@ -506,6 +506,7 @@ h2 p {
   padding: 0;
   margin: 0;
   list-style: none;
+  margin-bottom: 16px;
 }
 
 .footer-social-item {
