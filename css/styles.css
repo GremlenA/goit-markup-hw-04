@@ -450,8 +450,6 @@ h2 p {
   align-items: baseline;
 }
 
-
-/* Левая часть */
 .footer-content {
   width: 264px;
   margin-right: 120px; 
@@ -484,6 +482,7 @@ h2 p {
   letter-spacing: 0.02em;
   max-width: 264px;
   margin-bottom: 16px;
+  margin-top: 0;
 }
 
 .footer-social-block {
